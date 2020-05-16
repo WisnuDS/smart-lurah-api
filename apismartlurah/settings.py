@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'api',
+    'django_mysql',
 ]
 
 MIDDLEWARE = [
@@ -76,9 +77,11 @@ WSGI_APPLICATION = 'apismartlurah.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
+        'OPTIONS': {'charset': 'utf8mb4'},
         'NAME': 'DBsmartlurah',
         'USER': 'root',
         'PASSWORD': 'wisnudewasaputra050700'
+
     }
 }
 

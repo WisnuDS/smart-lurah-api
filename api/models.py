@@ -1,4 +1,5 @@
 from django.db import models
+from django_mysql.models import EnumField
 
 
 # Create your models here.
@@ -7,7 +8,7 @@ from django.db import models
 class User(models.Model):
     telegram_id = models.CharField(max_length=20)
     name = models.CharField(max_length=30)
-    verification = models.BooleanField(default=False)
+    status = EnumField(choices=["verified","unverified","rejected"],default="unverified")
     url_ktp_photo = models.CharField(max_length=300, default="url")
     url_self_photo = models.CharField(max_length=300, default="url")
 
@@ -24,6 +25,7 @@ class ServiceRequirements(models.Model):
 
 class Services(models.Model):
     type_service = models.CharField(max_length=100)
+    status = EnumField(choices=["active","inactive"],default="active")
 
     def __str__(self):
         return self.type_service
@@ -41,11 +43,10 @@ class Arrangement(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     service = models.ForeignKey(Services, on_delete=models.CASCADE)
     date = models.DateField(blank=True, null=True)
-    verification = models.BooleanField(default=False)
-    finished = models.BooleanField(default=False)
+    status = EnumField(choices=["verified","not verified","rejected","finished"],default="not verified")
 
     def __str__(self):
-        return self.user, self.service, self.verification, self.date
+        return self.user, self.service, self.status, self.date
 
 
 class FileRequirement(models.Model):

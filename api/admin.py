@@ -33,9 +33,9 @@ class DetailRequirementsAdmin(admin.ModelAdmin):
 
 
 class ArrangementAdmin(admin.ModelAdmin):
-    list_display = ["user_id", "service_id", "date", "verification"]
+    list_display = ["user_id", "service_id", "date", "status"]
     list_filter = ()
-    search_fields = ["user_id", "service_id", "date", "verification"]
+    search_fields = ["user_id", "service_id", "date", "status"]
     list_per_page = 25
 
 

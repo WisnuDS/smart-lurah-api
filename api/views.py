@@ -85,8 +85,11 @@ def login(request):
 @parser_classes((PlainTextParser, JSONParser))
 def check_register(request):
     telegram_id = request.data.get('telegram_id')
+    print(request.method)
+    print(telegram_id)
     user = User.objects.filter(telegram_id=telegram_id)
-    if user is not None:
+    print(user)
+    if user.exists():
         data = {
             'status': True,
         }

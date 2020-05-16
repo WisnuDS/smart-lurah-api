@@ -1,7 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f1ad3b7-4930-4e95-9800-fe48e1e5c95d" name="Default Changelist" comment="" />
+    <list default="true" id="2f1ad3b7-4930-4e95-9800-fe48e1e5c95d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/migrations/0004_arrangement_rejected.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/migrations/0005_auto_20200509_1614.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/migrations/0006_auto_20200510_0748.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/migrations/0007_services_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql-3.5.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql-3.5.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql-3.5.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql-3.5.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql-3.5.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql-3.5.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/checks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/locks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/management/commands/cull_mysql_caches.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/management/commands/dbparams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/management/commands/fix_datetime_columns.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/management/commands/mysql_cache_migration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/models/aggregates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/models/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/models/expressions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/models/fields/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/models/fields/bit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/models/fields/dynamic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/models/fields/enum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/models/fields/json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/models/fields/lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/models/fields/sets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/models/fields/sizes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/models/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/models/handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/models/lookups.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/models/query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/models/transforms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/monkey_patches.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/rewrite_query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/test/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_mysql/validators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apismartlurah/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/apismartlurah/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +94,13 @@
         <item name="DBSmartLurah" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="DBsmartlurah: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="api_user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DBSmartLurah" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="DBsmartlurah: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="auth_user: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
@@ -54,14 +116,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JupyterTrust" id="333bee98-37a0-46c8-a830-2bcd341e6afa" />
   <component name="ProjectId" id="1ZFZL4J323ltdenGlJbmf05yD6C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/google_bangkit" />
@@ -124,14 +193,26 @@
       <workItem from="1586275502604" duration="1337000" />
       <workItem from="1586333599384" duration="2931000" />
       <workItem from="1586937763533" duration="1200000" />
-      <workItem from="1587349312198" duration="1962000" />
+      <workItem from="1587349312198" duration="2764000" />
+      <workItem from="1589032850694" duration="8591000" />
+      <workItem from="1589235127795" duration="2076000" />
+      <workItem from="1589408965918" duration="2970000" />
+      <workItem from="1589479223846" duration="1704000" />
+      <workItem from="1589529284318" duration="11109000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="278" y="59" width="800" height="675" key="#Inspections" timestamp="1589036068282">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="278" y="59" width="800" height="675" key="#Inspections/0.27.1366.741@0.27.1366.741" timestamp="1589036068282" />
     <state x="278" y="59" width="800" height="675" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584921397156">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -140,25 +221,25 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="155" width="424" height="482" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1584767929272" />
-    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1586574792105">
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1589567638162">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1586574792105" />
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1589567638162" />
     <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.3286.1053@0.27.3286.1053" timestamp="1584443539898" />
-    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1586574792104">
+    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1589567638161">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1586574792104" />
+    <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1589567638161" />
     <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.3286.1053@0.27.3286.1053" timestamp="1584443539898" />
-    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1586574792104">
+    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1589567638160">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1586574792104" />
+    <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1589567638160" />
     <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.3286.1053@0.27.3286.1053" timestamp="1584443539897" />
-    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1586574792104">
+    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1589567638161">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1586574792104" />
+    <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1589567638161" />
     <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.3286.1053@0.27.3286.1053" timestamp="1584443539898" />
     <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1584542087658">
       <screen x="0" y="27" width="1366" height="741" />
@@ -168,9 +249,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="172" y="32" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1584763584816" />
-    <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1587349985004">
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1589479255299">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1587349985004" />
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1589479255299" />
   </component>
 </project>
