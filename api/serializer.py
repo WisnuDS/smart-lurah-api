@@ -11,13 +11,15 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 class ServiceRequirementsSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = ServiceRequirements
-        fields = '__all__'
+        fields = ['url','id','name_requirement']
 
 
 class ServicesSerializer(serializers.HyperlinkedModelSerializer):
+    detail = serializers.StringRelatedField(many=True,read_only=True)
+
     class Meta:
         model = Services
-        fields = '__all__'
+        fields = ['id','url','type_service','status','detail']
 
 
 class DetailRequirementsSerializer(serializers.HyperlinkedModelSerializer):
@@ -27,9 +29,11 @@ class DetailRequirementsSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class ArrangementSerializer(serializers.HyperlinkedModelSerializer):
+    file_requirement = serializers.StringRelatedField(many=True,read_only=True)
+
     class Meta:
         model = Arrangement
-        fields = '__all__'
+        fields = ['id','url','user','service','date','status','file_requirement']
 
 
 class FileRequirementSerializer(serializers.HyperlinkedModelSerializer):

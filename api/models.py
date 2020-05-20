@@ -8,51 +8,51 @@ from django_mysql.models import EnumField
 class User(models.Model):
     telegram_id = models.CharField(max_length=20)
     name = models.CharField(max_length=30)
-    status = EnumField(choices=["verified","unverified","rejected"],default="unverified")
+    status = EnumField(choices=["verified", "unverified", "rejected"], default="unverified")
     url_ktp_photo = models.CharField(max_length=300, default="url")
     url_self_photo = models.CharField(max_length=300, default="url")
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
 
 class ServiceRequirements(models.Model):
     name_requirement = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.name_requirement
+        return str(self.id)+'.'+str(self.name_requirement)
 
 
 class Services(models.Model):
     type_service = models.CharField(max_length=100)
-    status = EnumField(choices=["active","inactive"],default="active")
+    status = EnumField(choices=["active", "inactive"], default="active")
 
     def __str__(self):
-        return self.type_service
+        return str(self.type_service)
 
 
 class DetailRequirements(models.Model):
-    service = models.ForeignKey(Services, on_delete=models.CASCADE)
-    requirement = models.ForeignKey(ServiceRequirements, on_delete=models.CASCADE)
+    service = models.ForeignKey(Services, on_delete=models.CASCADE, related_name='detail')
+    requirement = models.ForeignKey(ServiceRequirements, on_delete=models.CASCADE, related_name='detail_requirement')
 
     def __str__(self):
-        return self.service
+        return str(self.requirement)
 
 
 class Arrangement(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     service = models.ForeignKey(Services, on_delete=models.CASCADE)
     date = models.DateField(blank=True, null=True)
-    status = EnumField(choices=["verified","not verified","rejected","finished"],default="not verified")
+    status = EnumField(choices=["verified", "not verified", "rejected", "finished"], default="not verified")
 
     def __str__(self):
-        return self.user, self.service, self.status, self.date
+        return str(self.user)
 
 
 class FileRequirement(models.Model):
-    arrangement = models.ForeignKey(Arrangement, on_delete=models.CASCADE)
+    arrangement = models.ForeignKey(Arrangement, related_name='file_requirement', on_delete=models.CASCADE)
     requirement = models.ForeignKey(ServiceRequirements, on_delete=models.CASCADE)
     url_file = models.CharField(max_length=300, default="url")
 
     def __str__(self):
-        return self.arrangement_id, self.requirement_id, self.url_file
+        return str(self.url_file)

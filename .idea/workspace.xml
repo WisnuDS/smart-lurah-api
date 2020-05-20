@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f1ad3b7-4930-4e95-9800-fe48e1e5c95d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +71,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="JupyterTrust" id="333bee98-37a0-46c8-a830-2bcd341e6afa" />
   <component name="ProjectId" id="1ZFZL4J323ltdenGlJbmf05yD6C" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -80,6 +91,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/google_bangkit" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -146,7 +158,9 @@
       <workItem from="1589235127795" duration="2076000" />
       <workItem from="1589408965918" duration="2970000" />
       <workItem from="1589479223846" duration="1704000" />
-      <workItem from="1589529284318" duration="13997000" />
+      <workItem from="1589529284318" duration="18880000" />
+      <workItem from="1589816609676" duration="12939000" />
+      <workItem from="1589888920498" duration="14516000" />
     </task>
     <servers />
   </component>
@@ -165,30 +179,50 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="278" y="59" width="800" height="675" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1584921397156" />
+    <state x="244" y="27" width="867" height="739" key="CommitChangelistDialog2" timestamp="1589948678433">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="244" y="27" width="867" height="739" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1589948678432" />
     <state x="466" y="155" width="424" height="482" key="FileChooserDialogImpl" timestamp="1584767929272">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="155" width="424" height="482" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1584767929272" />
-    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1589618114221">
+    <state width="1320" height="148" key="GridCell.Tab.0.bottom" timestamp="1589926762524">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1589618114221" />
+    <state width="1320" height="148" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1589926762524" />
     <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.3286.1053@0.27.3286.1053" timestamp="1584443539898" />
-    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1589618114218">
+    <state width="1320" height="148" key="GridCell.Tab.0.center" timestamp="1589926762524">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1589618114218" />
+    <state width="1320" height="148" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1589926762524" />
     <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.3286.1053@0.27.3286.1053" timestamp="1584443539898" />
-    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1589618114216">
+    <state width="1320" height="148" key="GridCell.Tab.0.left" timestamp="1589926762523">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1589618114216" />
+    <state width="1320" height="148" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1589926762523" />
     <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.3286.1053@0.27.3286.1053" timestamp="1584443539897" />
-    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1589618114220">
+    <state width="1320" height="148" key="GridCell.Tab.0.right" timestamp="1589926762524">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1589618114220" />
+    <state width="1320" height="148" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1589926762524" />
     <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.3286.1053@0.27.3286.1053" timestamp="1584443539898" />
+    <state width="1320" height="218" key="GridCell.Tab.1.bottom" timestamp="1589897750780">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="218" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1589897750780" />
+    <state width="1320" height="218" key="GridCell.Tab.1.center" timestamp="1589897750780">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="218" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1589897750780" />
+    <state width="1320" height="218" key="GridCell.Tab.1.left" timestamp="1589897750779">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="218" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1589897750779" />
+    <state width="1320" height="218" key="GridCell.Tab.1.right" timestamp="1589897750780">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="218" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1589897750780" />
     <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1584542087658">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -197,9 +231,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="172" y="32" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1584763584816" />
-    <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1589479255299">
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1589889059011">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1589479255299" />
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1589889059011" />
   </component>
 </project>
